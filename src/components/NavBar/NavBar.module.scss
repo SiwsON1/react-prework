@@ -5,7 +5,10 @@
  display:flex;
  justify-content: space-between;
  
+
 }
+
+
 .links{
   padding: $base-size *2;
   a {
@@ -19,6 +22,11 @@
     vertical-align: center;
   
   }
+  .linkActive{
+
+    color: $color-warning;
+  
+  }
 }
 .icon{
   color: $color-light;
@@ -29,3 +37,4 @@
   padding: $base-size *1.5 ;
   vertical-align: center;
 }
+
